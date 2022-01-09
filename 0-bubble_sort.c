@@ -1,5 +1,11 @@
 #include "sort.h"
 
+/**
+ * bubble_sort - Sorts an array using bubble sort.
+ *
+ * @array: The array to be sorted
+ * @size: The size of the array
+ */
 void bubble_sort(int *array, size_t size)
 {
 	size_t index;
@@ -22,6 +28,14 @@ void bubble_sort(int *array, size_t size)
 	}
 }
 
+/**
+ * check_sort - Checks if array is sorted.
+ *
+ * @array: The array to be checked.
+ * @size: The size of the array.
+ *
+ * Return: 1 if sorted, otherwise, 0.
+ */
 int check_sort(int *array, size_t size)
 {
 	size_t index;
