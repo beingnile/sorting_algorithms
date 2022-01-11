@@ -1,6 +1,9 @@
 #ifndef SORT_H
 #define SORT_H
 
+/* I don't really use these header files but for some reason
+ * my code crashes without them.
+ */
 #include <stdlib.h>
 #include <stdio.h>
 
