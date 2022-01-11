@@ -1,6 +1,6 @@
 #ifndef SORT_H
 #define SORT_H
-#include <stddef.h>
+#include <stddef.h> /*For the size_t data type*/
 
 /*Doubly linked list*/
 
